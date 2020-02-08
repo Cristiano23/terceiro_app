@@ -1,11 +1,18 @@
 <% provide(:title, "Inicio")%>
+
+<div class="center jumbotron">
 <h1>Terceiro App</h1>
-<p>
+
+<h2 class="center">
     Terceiro App criado em Ruby on Rails
     <strong>Desenvolvimento de software para Web II com HTML, CSS e Ruby
     on Rails</strong>
-    <a href="http://ufal.edu.br/arapiraca/unidades-de-ensino/penedo">
-Penedo</a>
-</p>
+    <a href="http://ufal.edu.br/arapiraca/unidades-de-ensino/penedo">Penedo</a>
+</h2>
+
+<%= link_to 'cadastre-se', '#', class: "btn btn-lg-primary" %>
+</div>
+
+<%= link_to image_tag("logo.png", alt: "UFAL", width: "70px"), "https://ufal.br" %>
 
 
